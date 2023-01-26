@@ -20,10 +20,10 @@ document.querySelectorAll("header nav a").forEach(function(link){
     });
   });
 });
-//Add Event Listeners To the Project links
-document.querySelectorAll("section#projects a").forEach(function(link){
-  link.addEventListener("click",function(event){
-    event.preventDefault();
-    alert("This feature has not been implemented yet");
-  });
-});
+// //Add Event Listeners To the Project links
+// document.querySelectorAll("section#projects a").forEach(function(link){
+//   link.addEventListener("click",function(event){
+//     event.preventDefault();
+//     alert("This feature has not been implemented yet");
+//   });
+// });
