@@ -199,4 +199,8 @@ section#contact form input[type="submit"]:hover {
       flex-wrap: wrap;
       overflow-x: hidden;
   }
+  section#contact form input[type="submit"] {
+      background-color: #EB455F;
+      color: #fff;
+    }
 }
