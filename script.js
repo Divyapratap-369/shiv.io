@@ -27,3 +27,11 @@ document.querySelectorAll("header nav a").forEach(function(link){
 //     alert("This feature has not been implemented yet");
 //   });
 // });
+setTimeout(() => {
+  document.querySelector('.blur-overlay').style.opacity = '0';
+}, 2000);
+
+const blurOverlay = document.querySelector('.blur-overlay');
+blurOverlay.addEventListener("transitionend", function(){
+  blurOverlay.style.display = "none";
+});
