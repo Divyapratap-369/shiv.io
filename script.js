@@ -29,7 +29,7 @@ document.querySelectorAll("header nav a").forEach(function(link){
 // });
 setTimeout(() => {
   document.querySelector('.blur-overlay').style.opacity = '0';
-}, 2000);
+}, 1000);
 
 const blurOverlay = document.querySelector('.blur-overlay');
 blurOverlay.addEventListener("transitionend", function(){
