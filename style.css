@@ -199,6 +199,36 @@ section#contact form input[type="submit"]:hover {
 #color-10 {
     background-color: #344D67;
 }
+body.light #color-1{
+    background-color: #5B8FB9;
+}
+body.light #color-2{
+    background-color: #7B8FA1;
+}
+body.light #color-3{
+   background-color: #84D2C5; 
+}
+body.light #color-4{
+    background-color: #E3ACF9;
+}
+body.light #color-5{
+    background-color: #FFD4B2;
+}
+body.light #color-6{
+    background-color: #86C8BC;
+}
+body.light #color-7{
+    background-color: #82AAE3;
+}
+body.light #color-8{
+    background-color: #DFD3C3;
+}
+body.light #color-9{
+    background-color: #FFCAC8;
+}
+body.light #color-10{
+    background-color: #96CEB4;
+}
 ::-webkit-scrollbar {
     width: 7px;
     background: black;
