@@ -42,7 +42,7 @@ toggle.addEventListener('click', function() {
   toggle.classList.toggle('light');
 
   if (document.body.classList.contains('light')) {
-    image.src='images/coloured-img.jpg'
+    image.src='images/light.jpg'
     document.body.style.backgroundColor = '#fff';
     document.body.style.color = 'black';
     elements.forEach(element => {
@@ -56,7 +56,7 @@ toggle.addEventListener('click', function() {
       element.style.color = 'black';
     });
   } else {
-    image.src='images/dark-img.jpg';
+    image.src='images/dark.jpg';
     document.body.style.backgroundColor = 'black';
     document.body.style.color = '#fff';
     elements.forEach(element => {
