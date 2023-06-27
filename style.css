@@ -51,8 +51,8 @@ h1{
 }
 #sub-heading{
   font-size: 24px;
-  margin-top:0;
-  margin-bottom:40px;
+  margin-top:7px;
+  margin-bottom:25px;
   letter-spacing: 2px;
   font-family: 'Raleway', sans-serif;
 }
@@ -78,8 +78,8 @@ h2{
   color: #EB455F;
 }
 #about{
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 32%;
+  margin-right: 32%;
   padding: 20px;
   font-size: 18px;
   letter-spacing: 1px;
