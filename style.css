@@ -164,7 +164,9 @@ body.light .project{
   color: #fff;
   background-color: #EB455F;
 }
-
+body.light .project a{
+  fill: white;
+}
 /*  Stylise the contact form */
 section#contact 
 form {
